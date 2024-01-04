@@ -1,0 +1,662 @@
+2023-12-25 15:18:29.878 =>[background-preinit] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:18:29.904 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:18:29.905 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:18:29.906 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:18:29.906 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:18:29.906 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:18:30.010 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:55 - Starting YbServerApplication on Jaimes-MacBook-Pro.local with PID 93141 (/Users/m/Documents/YBServer/target/classes started by m in /Users/m/Documents/YBServer)
+2023-12-25 15:18:30.015 =>[main] == DEBUG com.yhdyy.ybserver.YbServerApplication:56 - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-12-25 15:18:30.018 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:651 - No active profile set, falling back to default profiles: default
+2023-12-25 15:18:31.619 =>[main] == DEBUG org.apache.ibatis.logging.LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 15:18:31.622 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.class]
+2023-12-25 15:18:31.623 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:49 - Creating MapperFactoryBean with name 'mzybDao' and 'com.yhdyy.ybserver.daos.mssql.mzybDao' mapperInterface
+2023-12-25 15:18:31.942 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.dtflys.forest.springboot.ForestAutoConfiguration' of type [com.dtflys.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$a3a4c69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:31.952 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:31.991 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestProperties' of type [com.dtflys.forest.config.SpringForestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:31.994 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestObjectFactory' of type [com.dtflys.forest.reflection.SpringForestObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:31.996 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestInterceptorFactory' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:32.020 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forest-com.dtflys.forest.springboot.properties.ForestConfigurationProperties' of type [com.dtflys.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:32.074 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:32.079 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConverterBeanListener' of type [com.dtflys.forest.spring.ConverterBeanListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:32.090 =>[main] == DEBUG com.dtflys.forest.scanner.ClassPathClientScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/client/NetService.class]
+2023-12-25 15:18:32.093 =>[main] == INFO  com.dtflys.forest.scanner.ClassPathClientScanner:158 - [Forest] Created Forest Client Bean with name 'netService' and Proxy of 'com.yhdyy.ybserver.client.NetService' client interface
+2023-12-25 15:18:32.678 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2023-12-25 15:18:32.703 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:18:32.704 =>[main] == INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-12-25 15:18:32.705 =>[main] == INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-12-25 15:18:32.833 =>[main] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-25 15:18:32.833 =>[main] == INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 2470 ms
+2023-12-25 15:18:33.258 =>[main] == DEBUG com.zaxxer.hikari.HikariConfig:900 - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-12-25 15:18:33.296 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-12-25 15:18:33.677 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Parsed mapper file: 'file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]'
+2023-12-25 15:18:33.739 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:18:33.740 =>[main] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:18:33.751 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:18:33.752 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 15:18:33.753 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 15:18:33.754 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 15:18:33.755 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 15:18:33.755 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 15:18:33.755 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 15:18:33.755 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 15:18:33.756 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 15:18:33.758 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:18:33.759 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:18:33.759 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:18:33.759 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:18:33.759 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:18:34.079 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 15:18:34.366 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2023-12-25 15:18:34.554 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:18:34.584 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-25 15:18:34.587 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:61 - Started YbServerApplication in 5.242 seconds (JVM running for 9.138)
+2023-12-25 15:18:38.264 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2023-12-25 15:18:38.266 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-25 15:18:52.414 =>[background-preinit] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:18:52.433 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:18:52.433 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:18:52.434 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:18:52.434 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:18:52.435 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:18:52.492 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:55 - Starting YbServerApplication on Jaimes-MacBook-Pro.local with PID 93154 (/Users/m/Documents/YBServer/target/classes started by m in /Users/m/Documents/YBServer)
+2023-12-25 15:18:52.497 =>[main] == DEBUG com.yhdyy.ybserver.YbServerApplication:56 - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-12-25 15:18:52.498 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:651 - No active profile set, falling back to default profiles: default
+2023-12-25 15:18:53.518 =>[main] == DEBUG org.apache.ibatis.logging.LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 15:18:53.522 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.class]
+2023-12-25 15:18:53.522 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:49 - Creating MapperFactoryBean with name 'mzybDao' and 'com.yhdyy.ybserver.daos.mssql.mzybDao' mapperInterface
+2023-12-25 15:18:53.784 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.dtflys.forest.springboot.ForestAutoConfiguration' of type [com.dtflys.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$7540674] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.791 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.817 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestProperties' of type [com.dtflys.forest.config.SpringForestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.820 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestObjectFactory' of type [com.dtflys.forest.reflection.SpringForestObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.822 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestInterceptorFactory' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.840 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forest-com.dtflys.forest.springboot.properties.ForestConfigurationProperties' of type [com.dtflys.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.889 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.893 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConverterBeanListener' of type [com.dtflys.forest.spring.ConverterBeanListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:18:53.903 =>[main] == DEBUG com.dtflys.forest.scanner.ClassPathClientScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/client/NetService.class]
+2023-12-25 15:18:53.905 =>[main] == INFO  com.dtflys.forest.scanner.ClassPathClientScanner:158 - [Forest] Created Forest Client Bean with name 'netService' and Proxy of 'com.yhdyy.ybserver.client.NetService' client interface
+2023-12-25 15:18:54.387 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2023-12-25 15:18:54.408 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:18:54.408 =>[main] == INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-12-25 15:18:54.409 =>[main] == INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-12-25 15:18:54.535 =>[main] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-25 15:18:54.536 =>[main] == INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1967 ms
+2023-12-25 15:18:54.941 =>[main] == DEBUG com.zaxxer.hikari.HikariConfig:900 - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-12-25 15:18:54.992 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-12-25 15:18:55.730 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Parsed mapper file: 'file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]'
+2023-12-25 15:18:55.953 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:18:55.953 =>[main] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:18:55.987 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:18:55.988 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 15:18:55.989 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 15:18:55.990 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 15:18:55.992 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 15:18:55.993 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 15:18:55.993 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 15:18:55.993 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 15:18:55.993 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 15:18:55.998 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:18:56.000 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:18:56.002 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:18:56.004 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:18:56.007 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:18:56.493 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 15:18:57.604 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2023-12-25 15:18:57.670 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:18:57.705 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-25 15:18:57.710 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:61 - Started YbServerApplication in 5.729 seconds (JVM running for 7.892)
+2023-12-25 15:19:02.337 =>[http-nio-8080-exec-1] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 15:19:02.338 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 15:19:02.696 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 357 ms
+2023-12-25 15:19:02.777 =>[http-nio-8080-exec-1] == INFO  com.yhdyy.ybserver.services.MzybService:46 - doUpload
+2023-12-25 15:19:02.804 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Creating a new SqlSession
+2023-12-25 15:19:02.826 =>[http-nio-8080-exec-2] == INFO  com.yhdyy.ybserver.services.MzybService:46 - doUpload
+2023-12-25 15:19:02.827 =>[http-nio-8080-exec-2] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Creating a new SqlSession
+2023-12-25 15:19:02.834 =>[http-nio-8080-exec-2] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0cc911] was not registered for synchronization because synchronization is not active
+2023-12-25 15:19:02.834 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c70b465] was not registered for synchronization because synchronization is not active
+2023-12-25 15:19:02.893 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1020 - HikariPool-1 - configuration:
+2023-12-25 15:19:02.898 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - allowPoolSuspension.............false
+2023-12-25 15:19:02.898 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - autoCommit......................true
+2023-12-25 15:19:02.900 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - catalog.........................none
+2023-12-25 15:19:02.901 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionInitSql...............none
+2023-12-25 15:19:02.902 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTestQuery.............none
+2023-12-25 15:19:02.906 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTimeout...............30000
+2023-12-25 15:19:02.907 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSource......................none
+2023-12-25 15:19:02.908 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceClassName.............none
+2023-12-25 15:19:02.909 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceJNDI..................none
+2023-12-25 15:19:02.909 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2023-12-25 15:19:02.910 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2023-12-25 15:19:02.911 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckProperties...........{}
+2023-12-25 15:19:02.911 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckRegistry.............none
+2023-12-25 15:19:02.914 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - idleTimeout.....................600000
+2023-12-25 15:19:02.915 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - initializationFailTimeout.......1
+2023-12-25 15:19:02.916 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - isolateInternalQueries..........false
+2023-12-25 15:19:02.916 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - jdbcUrl.........................jdbc:sqlserver://192.168.191.155:1433;databaseName=mzyb;encrypt=true;trustServerCertificate=true;
+2023-12-25 15:19:02.917 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - leakDetectionThreshold..........0
+2023-12-25 15:19:02.918 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maxLifetime.....................1800000
+2023-12-25 15:19:02.919 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maximumPoolSize.................10
+2023-12-25 15:19:02.919 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricRegistry..................none
+2023-12-25 15:19:02.921 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricsTrackerFactory...........none
+2023-12-25 15:19:02.922 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - minimumIdle.....................10
+2023-12-25 15:19:02.922 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - password........................<masked>
+2023-12-25 15:19:02.923 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - poolName........................"HikariPool-1"
+2023-12-25 15:19:02.923 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - readOnly........................false
+2023-12-25 15:19:02.923 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - registerMbeans..................false
+2023-12-25 15:19:02.924 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - scheduledExecutor...............none
+2023-12-25 15:19:02.924 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - schema..........................none
+2023-12-25 15:19:02.925 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - threadFactory...................internal
+2023-12-25 15:19:02.927 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - transactionIsolation............default
+2023-12-25 15:19:02.933 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - username........................"wjs_zy"
+2023-12-25 15:19:02.933 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - validationTimeout...............5000
+2023-12-25 15:19:02.934 =>[http-nio-8080-exec-1] == INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-25 15:19:32.364 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.pool.PoolBase:364 - HikariPool-1 - Failed to create/setup connection: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“null。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2023-12-25 15:19:32.368 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.pool.HikariPool:500 - HikariPool-1 - Cannot acquire connection from data source
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“null。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2519) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:777) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3300) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.1.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at jdk.proxy2.$Proxy82.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.proxy2.$Proxy83.getRegBo(Unknown Source) [?:?]
+	at com.yhdyy.ybserver.services.MzybService.doUpload(MzybService.java:48) [classes/:?]
+	at com.yhdyy.ybserver.controllers.MzybController.doCheck(MzybController.java:24) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-12-25 15:19:32.462 =>[http-nio-8080-exec-1] == ERROR com.zaxxer.hikari.pool.HikariPool:595 - HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“null。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2519) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:777) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3300) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.1.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at jdk.proxy2.$Proxy82.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.proxy2.$Proxy83.getRegBo(Unknown Source) [?:?]
+	at com.yhdyy.ybserver.services.MzybService.doUpload(MzybService.java:48) [classes/:?]
+	at com.yhdyy.ybserver.controllers.MzybController.doCheck(MzybController.java:24) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-12-25 15:19:32.468 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1020 - HikariPool-1 - configuration:
+2023-12-25 15:19:32.470 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - allowPoolSuspension.............false
+2023-12-25 15:19:32.471 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - autoCommit......................true
+2023-12-25 15:19:32.471 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - catalog.........................none
+2023-12-25 15:19:32.472 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionInitSql...............none
+2023-12-25 15:19:32.473 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTestQuery.............none
+2023-12-25 15:19:32.473 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTimeout...............30000
+2023-12-25 15:19:32.474 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c70b465]
+2023-12-25 15:19:32.474 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSource......................none
+2023-12-25 15:19:32.475 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceClassName.............none
+2023-12-25 15:19:32.477 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceJNDI..................none
+2023-12-25 15:19:32.478 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2023-12-25 15:19:32.477 =>[http-nio-8080-exec-1] == ERROR com.yhdyy.ybserver.services.MzybService:51 - nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“null。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+### The error may exist in file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]
+### The error may involve com.yhdyy.ybserver.daos.mssql.mzybDao.getRegBo
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“null。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2023-12-25 15:19:32.478 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2023-12-25 15:19:32.478 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckProperties...........{}
+2023-12-25 15:19:32.479 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckRegistry.............none
+2023-12-25 15:19:32.479 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - idleTimeout.....................600000
+2023-12-25 15:19:32.480 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - initializationFailTimeout.......1
+2023-12-25 15:19:32.480 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - isolateInternalQueries..........false
+2023-12-25 15:19:32.481 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - jdbcUrl.........................jdbc:sqlserver://192.168.191.155:1433;databaseName=mzyb;encrypt=true;trustServerCertificate=true;
+2023-12-25 15:19:32.482 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - leakDetectionThreshold..........0
+2023-12-25 15:19:32.483 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maxLifetime.....................1800000
+2023-12-25 15:19:32.487 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maximumPoolSize.................10
+2023-12-25 15:19:32.488 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricRegistry..................none
+2023-12-25 15:19:32.488 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricsTrackerFactory...........none
+2023-12-25 15:19:32.488 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - minimumIdle.....................10
+2023-12-25 15:19:32.489 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - password........................<masked>
+2023-12-25 15:19:32.490 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - poolName........................"HikariPool-1"
+2023-12-25 15:19:32.490 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - readOnly........................false
+2023-12-25 15:19:32.490 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - registerMbeans..................false
+2023-12-25 15:19:32.491 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - scheduledExecutor...............none
+2023-12-25 15:19:32.491 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - schema..........................none
+2023-12-25 15:19:32.492 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - threadFactory...................internal
+2023-12-25 15:19:32.492 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - transactionIsolation............default
+2023-12-25 15:19:32.494 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - username........................"wjs_zy"
+2023-12-25 15:19:32.494 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - validationTimeout...............5000
+2023-12-25 15:19:32.495 =>[http-nio-8080-exec-2] == INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-25 15:20:02.470 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.pool.PoolBase:364 - HikariPool-1 - Failed to create/setup connection: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“Connection refused。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2023-12-25 15:20:02.471 =>[http-nio-8080-exec-2] == DEBUG com.zaxxer.hikari.pool.HikariPool:500 - HikariPool-1 - Cannot acquire connection from data source
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“Connection refused。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2519) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:777) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3300) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.1.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at jdk.proxy2.$Proxy82.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.proxy2.$Proxy83.getRegBo(Unknown Source) [?:?]
+	at com.yhdyy.ybserver.services.MzybService.doUpload(MzybService.java:48) [classes/:?]
+	at com.yhdyy.ybserver.controllers.MzybController.doCheck(MzybController.java:24) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-12-25 15:20:02.473 =>[http-nio-8080-exec-2] == ERROR com.zaxxer.hikari.pool.HikariPool:595 - HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“Connection refused。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2519) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:777) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3300) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064) ~[mssql-jdbc-11.2.1.jre8.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.1.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at jdk.proxy2.$Proxy82.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) [mybatis-3.5.3.jar:3.5.3]
+	at jdk.proxy2.$Proxy83.getRegBo(Unknown Source) [?:?]
+	at com.yhdyy.ybserver.services.MzybService.doUpload(MzybService.java:48) [classes/:?]
+	at com.yhdyy.ybserver.controllers.MzybController.doCheck(MzybController.java:24) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-12-25 15:20:02.476 =>[http-nio-8080-exec-2] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0cc911]
+2023-12-25 15:20:02.476 =>[http-nio-8080-exec-2] == ERROR com.yhdyy.ybserver.services.MzybService:51 - nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“Connection refused。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+### The error may exist in file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]
+### The error may involve com.yhdyy.ybserver.daos.mssql.mzybDao.getRegBo
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 192.168.191.155 的 TCP/IP 连接失败。错误:“Connection refused。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2023-12-25 15:20:20.886 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2023-12-25 15:20:20.897 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-25 15:20:28.034 =>[background-preinit] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:20:28.044 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:20:28.044 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:20:28.045 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:20:28.045 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:20:28.045 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:20:28.116 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:55 - Starting YbServerApplication on Jaimes-MacBook-Pro.local with PID 93189 (/Users/m/Documents/YBServer/target/classes started by m in /Users/m/Documents/YBServer)
+2023-12-25 15:20:28.120 =>[main] == DEBUG com.yhdyy.ybserver.YbServerApplication:56 - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-12-25 15:20:28.122 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:651 - No active profile set, falling back to default profiles: default
+2023-12-25 15:20:28.851 =>[main] == DEBUG org.apache.ibatis.logging.LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 15:20:28.853 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.class]
+2023-12-25 15:20:28.854 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:49 - Creating MapperFactoryBean with name 'mzybDao' and 'com.yhdyy.ybserver.daos.mssql.mzybDao' mapperInterface
+2023-12-25 15:20:29.019 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.dtflys.forest.springboot.ForestAutoConfiguration' of type [com.dtflys.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$57561fb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.027 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.083 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestProperties' of type [com.dtflys.forest.config.SpringForestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.086 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestObjectFactory' of type [com.dtflys.forest.reflection.SpringForestObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.089 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestInterceptorFactory' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.154 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forest-com.dtflys.forest.springboot.properties.ForestConfigurationProperties' of type [com.dtflys.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.196 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.200 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConverterBeanListener' of type [com.dtflys.forest.spring.ConverterBeanListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-25 15:20:29.216 =>[main] == DEBUG com.dtflys.forest.scanner.ClassPathClientScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/client/NetService.class]
+2023-12-25 15:20:29.218 =>[main] == INFO  com.dtflys.forest.scanner.ClassPathClientScanner:158 - [Forest] Created Forest Client Bean with name 'netService' and Proxy of 'com.yhdyy.ybserver.client.NetService' client interface
+2023-12-25 15:20:29.542 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2023-12-25 15:20:29.555 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:20:29.556 =>[main] == INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-12-25 15:20:29.557 =>[main] == INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-12-25 15:20:29.637 =>[main] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-25 15:20:29.637 =>[main] == INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1466 ms
+2023-12-25 15:20:29.879 =>[main] == DEBUG com.zaxxer.hikari.HikariConfig:900 - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-12-25 15:20:29.916 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-12-25 15:20:30.091 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Parsed mapper file: 'file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]'
+2023-12-25 15:20:30.177 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:20:30.178 =>[main] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-25 15:20:30.194 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 15:20:30.195 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 15:20:30.196 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 15:20:30.196 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 15:20:30.197 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 15:20:30.198 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 15:20:30.198 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 15:20:30.199 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 15:20:30.199 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 15:20:30.214 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 15:20:30.215 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 15:20:30.215 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 15:20:30.216 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 15:20:30.216 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 15:20:30.426 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 15:20:30.740 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2023-12-25 15:20:30.785 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 15:20:30.804 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-25 15:20:30.807 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:61 - Started YbServerApplication in 2.983 seconds (JVM running for 5.364)
+2023-12-25 15:20:53.947 =>[http-nio-8080-exec-1] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 15:20:53.947 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 15:20:53.965 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 17 ms
+2023-12-25 15:20:53.994 =>[http-nio-8080-exec-1] == INFO  com.yhdyy.ybserver.services.MzybService:46 - doUpload
+2023-12-25 15:20:54.003 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Creating a new SqlSession
+2023-12-25 15:20:54.011 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@394cb3a6] was not registered for synchronization because synchronization is not active
+2023-12-25 15:20:54.074 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1020 - HikariPool-1 - configuration:
+2023-12-25 15:20:54.077 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - allowPoolSuspension.............false
+2023-12-25 15:20:54.077 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - autoCommit......................true
+2023-12-25 15:20:54.077 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - catalog.........................none
+2023-12-25 15:20:54.078 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionInitSql...............none
+2023-12-25 15:20:54.078 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTestQuery.............none
+2023-12-25 15:20:54.079 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTimeout...............30000
+2023-12-25 15:20:54.079 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSource......................none
+2023-12-25 15:20:54.079 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceClassName.............none
+2023-12-25 15:20:54.080 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceJNDI..................none
+2023-12-25 15:20:54.080 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2023-12-25 15:20:54.080 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2023-12-25 15:20:54.083 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckProperties...........{}
+2023-12-25 15:20:54.083 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckRegistry.............none
+2023-12-25 15:20:54.084 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - idleTimeout.....................600000
+2023-12-25 15:20:54.085 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - initializationFailTimeout.......1
+2023-12-25 15:20:54.085 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - isolateInternalQueries..........false
+2023-12-25 15:20:54.086 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - jdbcUrl.........................jdbc:sqlserver://192.168.191.155:1433;databaseName=mzyb;encrypt=true;trustServerCertificate=true;
+2023-12-25 15:20:54.086 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - leakDetectionThreshold..........0
+2023-12-25 15:20:54.086 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maxLifetime.....................1800000
+2023-12-25 15:20:54.087 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maximumPoolSize.................10
+2023-12-25 15:20:54.087 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricRegistry..................none
+2023-12-25 15:20:54.087 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricsTrackerFactory...........none
+2023-12-25 15:20:54.088 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - minimumIdle.....................10
+2023-12-25 15:20:54.088 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - password........................<masked>
+2023-12-25 15:20:54.088 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - poolName........................"HikariPool-1"
+2023-12-25 15:20:54.089 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - readOnly........................false
+2023-12-25 15:20:54.089 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - registerMbeans..................false
+2023-12-25 15:20:54.089 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - scheduledExecutor...............none
+2023-12-25 15:20:54.091 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - schema..........................none
+2023-12-25 15:20:54.092 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - threadFactory...................internal
+2023-12-25 15:20:54.092 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - transactionIsolation............default
+2023-12-25 15:20:54.093 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - username........................"wjs_zy"
+2023-12-25 15:20:54.093 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - validationTimeout...............5000
+2023-12-25 15:20:54.093 =>[http-nio-8080-exec-1] == INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-25 15:21:00.880 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2023-12-25 15:21:00.882 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'

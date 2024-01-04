@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhdyy.ybserver.daos.mssql.mzybDao">
+    <resultMap id="BaseMap" type="com.yhdyy.ybserver.bos.BaseBo">
+        <result column="yb_date" jdbcType="TIMESTAMP" property="yb_date"/>
+        <result column="insert_date" jdbcType="TIMESTAMP" property="insert_date"/>
+        <result column="upload_status" jdbcType="VARCHAR" property="upload_status"/>
+        <result column="upload_date" jdbcType="TIMESTAMP" property="upload_date"/>
+        <result column="result_code" jdbcType="VARCHAR" property="result_code"/>
+        <result column="message" jdbcType="VARCHAR" property="message"/>
+        <result column="upload_opera" jdbcType="VARCHAR" property="upload_opera"/>
+        <result column="upload_serial" jdbcType="VARCHAR" property="upload_serial"/>
+    </resultMap>
+    <resultMap id="RegMap" type="com.yhdyy.ybserver.bos.RegBo" extends="BaseMap">
+        <result column="GHRQ" jdbcType="VARCHAR" property="GHRQ"/>
+        <result column="GHBM" jdbcType="VARCHAR" property="GHBM"/>
+        <result column="GTHBZ" jdbcType="VARCHAR" property="GTHBZ"/>
+        <result column="YLJGDM" jdbcType="VARCHAR" property="YLJGDM"/>
+        <result column="STFBH" jdbcType="VARCHAR" property="STFBH"/>
+        <result column="GTHSJ" jdbcType="VARCHAR" property="GTHSJ"/>
+        <result column="GHLB" jdbcType="VARCHAR" property="GHLB"/>
+        <result column="BXLB" jdbcType="VARCHAR" property="BXLB"/>
+        <result column="KSBM" jdbcType="VARCHAR" property="KSBM"/>
+        <result column="TXBZ" jdbcType="VARCHAR" property="TXBZ"/>
+        <result column="WDBZ" jdbcType="VARCHAR" property="WDBZ"/>
+        <result column="ZFZLF" jdbcType="VARCHAR" property="ZFZLF"/>
+        <result column="ZLF" jdbcType="VARCHAR" property="ZLF"/>
+        <result column="QTF" jdbcType="VARCHAR" property="QTF"/>
+        <result column="KH" jdbcType="VARCHAR" property="KH"/>
+        <result column="KLX" jdbcType="VARCHAR" property="KLX"/>
+        <result column="SFYY" jdbcType="VARCHAR" property="SFYY"/>
+        <result column="GHRCBS" jdbcType="VARCHAR" property="GHRCBS"/>
+        <result column="YZSSF" jdbcType="VARCHAR" property="YZSSF"/>
+        <result column="XGBZ" jdbcType="VARCHAR" property="XGBZ"/>
+        <result column="YLYL1" jdbcType="VARCHAR" property="YLYL1"/>
+        <result column="YLYL2" jdbcType="VARCHAR" property="YLYL2"/>
+    </resultMap>
+
+
+    <resultMap id="MedicalRecordMap" type="com.yhdyy.ybserver.bos.MedicalRecordBo" extends="BaseMap">
+        <result column="YLJGDM" jdbcType="VARCHAR" property="YLJGDM"/>
+        <result column="JZLSH" jdbcType="VARCHAR" property="JZLSH"/>
+        <result column="KH" jdbcType="VARCHAR" property="KH"/>
+        <result column="KLX" jdbcType="VARCHAR" property="KLX"/>
+        <result column="ZJLX" jdbcType="VARCHAR" property="ZJLX"/>
+        <result column="ZJHM" jdbcType="VARCHAR" property="ZJHM"/>
+        <result column="HZXM" jdbcType="VARCHAR" property="HZXM"/>
+        <result column="BRNL" jdbcType="VARCHAR" property="BRNL"/>
+        <result column="JZLX" jdbcType="VARCHAR" property="JZLX"/>
+        <result column="BXLB" jdbcType="VARCHAR" property="BXLB"/>
+        <result column="TXBZ" jdbcType="VARCHAR" property="TXBZ"/>
+        <result column="JYDDFL" jdbcType="VARCHAR" property="JYDDFL"/>
+        <result column="JZKSBM" jdbcType="VARCHAR" property="JZKSBM"/>
+        <result column="JZKSMC" jdbcType="VARCHAR" property="JZKSMC"/>
+        <result column="JZKSRQ" jdbcType="VARCHAR" property="JZKSRQ"/>
+        <result column="GMSBZ" jdbcType="VARCHAR" property="GMSBZ"/>
+        <result column="GMS" jdbcType="VARCHAR" property="GMS"/>
+        <result column="CZBZ" jdbcType="VARCHAR" property="CZBZ"/>
+        <result column="XBS" jdbcType="VARCHAR" property="XBS"/>
+        <result column="JWS" jdbcType="VARCHAR" property="JWS"/>
+        <result column="TGJC" jdbcType="VARCHAR" property="TGJC"/>
+        <result column="ZYSZGCJG" jdbcType="VARCHAR" property="ZYSZGCJG"/>
+        <result column="FZJCXM" jdbcType="VARCHAR" property="FZJCXM"/>
+        <result column="FZJCJG" jdbcType="VARCHAR" property="FZJCJG"/>
+        <result column="ZZYSGH" jdbcType="VARCHAR" property="ZZYSGH"/>
+        <result column="ZZYSXM" jdbcType="VARCHAR" property="ZZYSXM"/>
+        <result column="JZZDBM" jdbcType="VARCHAR" property="JZZDBM"/>
+        <result column="BMLX" jdbcType="VARCHAR" property="BMLX"/>
+        <result column="JZZDSM" jdbcType="VARCHAR" property="JZZDSM"/>
+        <result column="ZS" jdbcType="VARCHAR" property="ZS"/>
+        <result column="ZZMS" jdbcType="VARCHAR" property="ZZMS"/>
+        <result column="XGBZ" jdbcType="VARCHAR" property="XGBZ"/>
+        <result column="MJ" jdbcType="VARCHAR" property="MJ"/>
+        <result column="YLYL1" jdbcType="VARCHAR" property="YLYL1"/>
+        <result column="YLYL2" jdbcType="VARCHAR" property="YLYL2"/>
+    </resultMap>
+
+
+    <resultMap id="PrescriptionDetailMap" type="com.yhdyy.ybserver.bos.PrescriptionDetailBo" extends="BaseMap">
+        <result column="CYH" jdbcType="VARCHAR" property="CYH"/>
+        <result column="CFMXH" jdbcType="VARCHAR" property="CFMXH"/>
+        <result column="YLJGDM" jdbcType="VARCHAR" property="YLJGDM"/>
+        <result column="JZLSH" jdbcType="VARCHAR" property="JZLSH"/>
+        <result column="CFLX" jdbcType="VARCHAR" property="CFLX"/>
+        <result column="ZYCFLB" jdbcType="VARCHAR" property="ZYCFLB"/>
+        <result column="KH" jdbcType="VARCHAR" property="KH"/>
+        <result column="KLX" jdbcType="VARCHAR" property="KLX"/>
+        <result column="ZJLX" jdbcType="VARCHAR" property="ZJLX"/>
+        <result column="ZJHM" jdbcType="VARCHAR" property="ZJHM"/>
+        <result column="JZKSDM" jdbcType="VARCHAR" property="JZKSDM"/>
+        <result column="JZKSMC" jdbcType="VARCHAR" property="JZKSMC"/>
+        <result column="JZZDBM" jdbcType="VARCHAR" property="JZZDBM"/>
+        <result column="BMLX" jdbcType="VARCHAR" property="BMLX"/>
+        <result column="KFYS" jdbcType="VARCHAR" property="KFYS"/>
+        <result column="KFYSXM" jdbcType="VARCHAR" property="KFYSXM"/>
+        <result column="KFRQ" jdbcType="VARCHAR" property="KFRQ"/>
+        <result column="XMBM" jdbcType="VARCHAR" property="XMBM"/>
+        <result column="XMMC" jdbcType="VARCHAR" property="XMMC"/>
+        <result column="XMBMYB" jdbcType="VARCHAR" property="XMBMYB"/>
+        <result column="SCPH" jdbcType="VARCHAR" property="SCPH"/>
+        <result column="YXQZ" jdbcType="VARCHAR" property="YXQZ"/>
+        <result column="SFYP" jdbcType="VARCHAR" property="SFYP"/>
+        <result column="JXDM" jdbcType="VARCHAR" property="JXDM"/>
+        <result column="YPGG" jdbcType="VARCHAR" property="YPGG"/>
+        <result column="YF" jdbcType="VARCHAR" property="YF"/>
+        <result column="YPYF" jdbcType="VARCHAR" property="YPYF"/>
+        <result column="YPSL" jdbcType="VARCHAR" property="YPSL"/>
+        <result column="YPDW" jdbcType="VARCHAR" property="YPDW"/>
+        <result column="CFTS" jdbcType="VARCHAR" property="CFTS"/>
+        <result column="YZZH" jdbcType="VARCHAR" property="YZZH"/>
+        <result column="SYPC" jdbcType="VARCHAR" property="SYPC"/>
+        <result column="JL" jdbcType="VARCHAR" property="JL"/>
+        <result column="DW" jdbcType="VARCHAR" property="DW"/>
+        <result column="ZJL" jdbcType="VARCHAR" property="ZJL"/>
+        <result column="MCSL" jdbcType="VARCHAR" property="MCSL"/>
+        <result column="MCDW" jdbcType="VARCHAR" property="MCDW"/>
+        <result column="YYTS" jdbcType="VARCHAR" property="YYTS"/>
+        <result column="DPYSGH" jdbcType="VARCHAR" property="DPYSGH"/>
+        <result column="DPYSXM" jdbcType="VARCHAR" property="DPYSXM"/>
+        <result column="HDYSGH" jdbcType="VARCHAR" property="HDYSGH"/>
+        <result column="HDYSXM" jdbcType="VARCHAR" property="HDYSXM"/>
+        <result column="FYYSGH" jdbcType="VARCHAR" property="FYYSGH"/>
+        <result column="FYYSXM" jdbcType="VARCHAR" property="FYYSXM"/>
+        <result column="YPZYMD" jdbcType="VARCHAR" property="YPZYMD"/>
+        <result column="ZYYPPCF" jdbcType="VARCHAR" property="ZYYPPCF"/>
+        <result column="ZYYPJS" jdbcType="VARCHAR" property="ZYYPJS"/>
+        <result column="JYDM" jdbcType="VARCHAR" property="JYDM"/>
+        <result column="ZYYYFF" jdbcType="VARCHAR" property="ZYYYFF"/>
+        <result column="SFPS" jdbcType="VARCHAR" property="SFPS"/>
+        <result column="JCBW" jdbcType="VARCHAR" property="JCBW"/>
+        <result column="BZ" jdbcType="VARCHAR" property="BZ"/>
+        <result column="YPJE" jdbcType="VARCHAR" property="YPJE"/>
+        <result column="XGBZ" jdbcType="VARCHAR" property="XGBZ"/>
+        <result column="MJ" jdbcType="VARCHAR" property="MJ"/>
+        <result column="YLYL1" jdbcType="VARCHAR" property="YLYL1"/>
+        <result column="YLYL2" jdbcType="VARCHAR" property="YLYL2"/>
+    </resultMap>
+
+    <select id="getBaseBo" resultMap="BaseMap">
+        SELECT TOP (#{count}) *
+        FROM ${table}
+        WHERE upload_status IN
+        <foreach collection="upload_status" item="item" index="index" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+
+    <select id="getRegBo" resultMap="RegMap">
+        SELECT TOP (#{count}) *
+        FROM TB_HIS_MZ_Reg_yb
+        WHERE upload_status IN
+        <foreach collection="upload_status" item="item" index="index" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+
+    <select id="getRegBoBySerial" resultMap="RegMap">
+        SELECT TOP 10 *
+        FROM TB_HIS_MZ_Reg_yb
+        WHERE upload_serial >= #{start} AND upload_serial &lt;= #{end}
+    </select>
+
+    <update id="updateReg">
+        UPDATE TB_HIS_MZ_Reg_yb
+        <set>
+            <trim suffixOverrides=",">
+                <if test="baseBo.upload_status != null">
+                    upload_status = #{baseBo.upload_status},
+                </if>
+                <if test="baseBo.upload_date != null">
+                    upload_date = #{baseBo.upload_date},
+                </if>
+                <if test="baseBo.result_code != null">
+                    result_code = #{baseBo.result_code},
+                </if>
+                <if test="baseBo.message != null">
+                    message = #{baseBo.message},
+                </if>
+                <if test="baseBo.upload_opera != null">
+                    upload_opera = #{baseBo.upload_opera},
+                </if>
+                <if test="baseBo.upload_serial != null">
+                    upload_serial = #{baseBo.upload_serial},
+                </if>
+            </trim>
+        </set>
+        WHERE GHBM IN
+        <foreach collection="keys" item="key" index="index" open="(" close=")" separator=",">
+            #{key}
+        </foreach>
+    </update>
+
+
+    <update id="updateBase">
+        UPDATE ${table}
+        <set>
+            <trim suffixOverrides=",">
+                <if test="baseBo.upload_status != null">
+                    upload_status = #{baseBo.upload_status},
+                </if>
+                <if test="baseBo.upload_date != null">
+                    upload_date = #{baseBo.upload_date},
+                </if>
+                <if test="baseBo.result_code != null">
+                    result_code = #{baseBo.result_code},
+                </if>
+                <if test="baseBo.message != null">
+                    message = #{baseBo.message},
+                </if>
+                <if test="baseBo.upload_opera != null">
+                    upload_opera = #{baseBo.upload_opera},
+                </if>
+            </trim>
+        </set>
+        WHERE upload_serial =  #{baseBo.upload_serial}
+    </update>
+
+    <select id="getMedicalRecordBo" resultMap="MedicalRecordMap">
+        SELECT TOP (#{count}) *
+        FROM TB_YL_MZ_Medical_Record_yb
+        WHERE upload_status IN
+        <foreach collection="upload_status" item="item" index="index" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+    <select id="getMedicalRecordBoBySerial" resultMap="MedicalRecordMap">
+        SELECT TOP 10 *
+        FROM TB_YL_MZ_Medical_Record_yb
+        WHERE upload_serial >= #{start} AND upload_serial &lt;= #{end}
+    </select>
+
+    <update id="updateMedicalRecord">
+        UPDATE TB_YL_MZ_Medical_Record_yb
+        <set>
+            <trim suffixOverrides=",">
+                <if test="baseBo.upload_status != null">
+                    upload_status = #{baseBo.upload_status},
+                </if>
+                <if test="baseBo.upload_date != null">
+                    upload_date = #{baseBo.upload_date},
+                </if>
+                <if test="baseBo.result_code != null">
+                    result_code = #{baseBo.result_code},
+                </if>
+                <if test="baseBo.message != null">
+                    message = #{baseBo.message},
+                </if>
+                <if test="baseBo.upload_opera != null">
+                    upload_opera = #{baseBo.upload_opera},
+                </if>
+                <if test="baseBo.upload_serial != null">
+                    upload_serial = #{baseBo.upload_serial},
+                </if>
+            </trim>
+        </set>
+        WHERE JZLSH IN
+        <foreach collection="keys" item="key" index="index" open="(" close=")" separator=",">
+            #{key}
+        </foreach>
+    </update>
+
+    <select id="getPrescriptionDetailBo" resultMap="PrescriptionDetailMap">
+        SELECT TOP (#{count}) *
+        FROM TB_CIS_Prescription_Detail_yb
+        WHERE upload_status IN
+        <foreach collection="upload_status" item="item" index="index" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+    <select id="getPrescriptionDetailBoBySerial" resultMap="PrescriptionDetailMap">
+        SELECT TOP 10 *
+        FROM TB_CIS_Prescription_Detail_yb
+        WHERE upload_serial >= #{start} AND upload_serial &lt;= #{end}
+    </select>
+
+    <update id="updatePrescriptionDetail">
+        UPDATE TB_CIS_Prescription_Detail_yb
+        <set>
+            <trim suffixOverrides=",">
+                <if test="baseBo.upload_status != null">
+                    upload_status = #{baseBo.upload_status},
+                </if>
+                <if test="baseBo.upload_date != null">
+                    upload_date = #{baseBo.upload_date},
+                </if>
+                <if test="baseBo.result_code != null">
+                    result_code = #{baseBo.result_code},
+                </if>
+                <if test="baseBo.message != null">
+                    message = #{baseBo.message},
+                </if>
+                <if test="baseBo.upload_opera != null">
+                    upload_opera = #{baseBo.upload_opera},
+                </if>
+                <if test="baseBo.upload_serial != null">
+                    upload_serial = #{baseBo.upload_serial},
+                </if>
+            </trim>
+        </set>
+        WHERE (CYH+CFMXH) IN
+        <foreach collection="keys" item="item" index="index" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </update>
+
+
+
+</mapper>

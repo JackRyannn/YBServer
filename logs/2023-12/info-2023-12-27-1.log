@@ -1,0 +1,190 @@
+2023-12-27 08:30:10.233 =>[background-preinit] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-27 08:30:10.250 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-27 08:30:10.250 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-27 08:30:10.250 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-27 08:30:10.251 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-27 08:30:10.251 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-27 08:30:10.297 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:55 - Starting YbServerApplication on Jaimes-MacBook-Pro.local with PID 8109 (/Users/m/Documents/YBServer/target/classes started by m in /Users/m/Documents/YBServer)
+2023-12-27 08:30:10.299 =>[main] == DEBUG com.yhdyy.ybserver.YbServerApplication:56 - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-12-27 08:30:10.300 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:651 - No active profile set, falling back to default profiles: default
+2023-12-27 08:30:11.157 =>[main] == DEBUG org.apache.ibatis.logging.LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 08:30:11.159 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.class]
+2023-12-27 08:30:11.160 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:49 - Creating MapperFactoryBean with name 'mzybDao' and 'com.yhdyy.ybserver.daos.mssql.mzybDao' mapperInterface
+2023-12-27 08:30:11.307 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.dtflys.forest.springboot.ForestAutoConfiguration' of type [com.dtflys.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$99e15d09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.312 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.335 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestProperties' of type [com.dtflys.forest.config.SpringForestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.337 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestObjectFactory' of type [com.dtflys.forest.reflection.SpringForestObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.339 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestInterceptorFactory' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.354 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forest-com.dtflys.forest.springboot.properties.ForestConfigurationProperties' of type [com.dtflys.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.501 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.509 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConverterBeanListener' of type [com.dtflys.forest.spring.ConverterBeanListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:30:11.519 =>[main] == DEBUG com.dtflys.forest.scanner.ClassPathClientScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/client/NetService.class]
+2023-12-27 08:30:11.521 =>[main] == INFO  com.dtflys.forest.scanner.ClassPathClientScanner:158 - [Forest] Created Forest Client Bean with name 'netService' and Proxy of 'com.yhdyy.ybserver.client.NetService' client interface
+2023-12-27 08:30:11.792 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2023-12-27 08:30:11.805 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-27 08:30:11.805 =>[main] == INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-12-27 08:30:11.806 =>[main] == INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-12-27 08:30:11.934 =>[main] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-27 08:30:11.934 =>[main] == INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1579 ms
+2023-12-27 08:30:12.155 =>[main] == DEBUG com.zaxxer.hikari.HikariConfig:900 - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-12-27 08:30:12.257 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-12-27 08:30:12.466 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Parsed mapper file: 'file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]'
+2023-12-27 08:30:12.512 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-27 08:30:12.512 =>[main] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-27 08:30:12.517 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-27 08:30:12.518 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-27 08:30:12.519 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-27 08:30:12.519 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-27 08:30:12.520 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-27 08:30:12.520 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2023-12-27 08:30:12.520 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2023-12-27 08:30:12.521 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-27 08:30:12.521 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-27 08:30:12.524 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-27 08:30:12.524 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-27 08:30:12.524 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-27 08:30:12.524 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-27 08:30:12.524 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-27 08:30:12.729 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 08:30:12.970 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2023-12-27 08:30:13.076 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-27 08:30:13.117 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-27 08:30:13.120 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:61 - Started YbServerApplication in 3.278 seconds (JVM running for 4.947)
+2023-12-27 08:30:17.854 =>[http-nio-8080-exec-1] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 08:30:17.855 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-27 08:30:17.873 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 18 ms
+2023-12-27 08:30:32.743 =>[http-nio-8080-exec-4] == INFO  com.yhdyy.ybserver.services.MzybService:58 - doUpload------MedicalRecord
+2023-12-27 08:30:32.900 =>[http-nio-8080-exec-4] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Creating a new SqlSession
+2023-12-27 08:30:32.925 =>[http-nio-8080-exec-4] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea5c677] was not registered for synchronization because synchronization is not active
+2023-12-27 08:30:32.935 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1020 - HikariPool-1 - configuration:
+2023-12-27 08:30:32.938 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - allowPoolSuspension.............false
+2023-12-27 08:30:32.939 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - autoCommit......................true
+2023-12-27 08:30:32.939 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - catalog.........................none
+2023-12-27 08:30:32.940 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionInitSql...............none
+2023-12-27 08:30:32.940 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTestQuery.............none
+2023-12-27 08:30:32.942 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTimeout...............30000
+2023-12-27 08:30:32.943 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSource......................none
+2023-12-27 08:30:32.944 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceClassName.............none
+2023-12-27 08:30:32.944 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceJNDI..................none
+2023-12-27 08:30:32.945 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2023-12-27 08:30:32.946 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2023-12-27 08:30:32.946 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckProperties...........{}
+2023-12-27 08:30:32.947 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckRegistry.............none
+2023-12-27 08:30:32.947 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - idleTimeout.....................600000
+2023-12-27 08:30:32.948 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - initializationFailTimeout.......1
+2023-12-27 08:30:32.948 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - isolateInternalQueries..........false
+2023-12-27 08:30:32.949 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - jdbcUrl.........................jdbc:sqlserver://192.168.191.155:1433;databaseName=mzyb;encrypt=true;trustServerCertificate=true;
+2023-12-27 08:30:32.949 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - leakDetectionThreshold..........0
+2023-12-27 08:30:32.950 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maxLifetime.....................1800000
+2023-12-27 08:30:32.950 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maximumPoolSize.................10
+2023-12-27 08:30:32.950 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricRegistry..................none
+2023-12-27 08:30:32.950 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricsTrackerFactory...........none
+2023-12-27 08:30:32.951 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - minimumIdle.....................10
+2023-12-27 08:30:32.951 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - password........................<masked>
+2023-12-27 08:30:32.952 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - poolName........................"HikariPool-1"
+2023-12-27 08:30:32.952 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - readOnly........................false
+2023-12-27 08:30:32.952 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - registerMbeans..................false
+2023-12-27 08:30:32.953 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - scheduledExecutor...............none
+2023-12-27 08:30:32.953 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - schema..........................none
+2023-12-27 08:30:32.953 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - threadFactory...................internal
+2023-12-27 08:30:32.954 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - transactionIsolation............default
+2023-12-27 08:30:32.954 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - username........................"wjs_zy"
+2023-12-27 08:30:32.955 =>[http-nio-8080-exec-4] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - validationTimeout...............5000
+2023-12-27 08:30:32.955 =>[http-nio-8080-exec-4] == INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-27 08:30:46.166 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2023-12-27 08:30:46.168 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 08:31:02.328 =>[background-preinit] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-27 08:31:02.549 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-27 08:31:02.555 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-27 08:31:02.556 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-27 08:31:02.556 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-27 08:31:02.557 =>[background-preinit] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-27 08:31:02.654 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:55 - Starting YbServerApplication on Jaimes-MacBook-Pro.local with PID 8138 (/Users/m/Documents/YBServer/target/classes started by m in /Users/m/Documents/YBServer)
+2023-12-27 08:31:02.659 =>[main] == DEBUG com.yhdyy.ybserver.YbServerApplication:56 - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-12-27 08:31:02.660 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:651 - No active profile set, falling back to default profiles: default
+2023-12-27 08:31:03.765 =>[main] == DEBUG org.apache.ibatis.logging.LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 08:31:03.767 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.class]
+2023-12-27 08:31:03.768 =>[main] == DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner:49 - Creating MapperFactoryBean with name 'mzybDao' and 'com.yhdyy.ybserver.daos.mssql.mzybDao' mapperInterface
+2023-12-27 08:31:04.293 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.dtflys.forest.springboot.ForestAutoConfiguration' of type [com.dtflys.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$91211cfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.306 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.351 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestProperties' of type [com.dtflys.forest.config.SpringForestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.357 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestObjectFactory' of type [com.dtflys.forest.reflection.SpringForestObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.360 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestInterceptorFactory' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.392 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forest-com.dtflys.forest.springboot.properties.ForestConfigurationProperties' of type [com.dtflys.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.463 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.478 =>[main] == INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'forestConverterBeanListener' of type [com.dtflys.forest.spring.ConverterBeanListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-27 08:31:04.497 =>[main] == DEBUG com.dtflys.forest.scanner.ClassPathClientScanner:437 - Identified candidate component class: file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/client/NetService.class]
+2023-12-27 08:31:04.500 =>[main] == INFO  com.dtflys.forest.scanner.ClassPathClientScanner:158 - [Forest] Created Forest Client Bean with name 'netService' and Proxy of 'com.yhdyy.ybserver.client.NetService' client interface
+2023-12-27 08:31:04.821 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2023-12-27 08:31:04.830 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-27 08:31:04.831 =>[main] == INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-12-27 08:31:04.831 =>[main] == INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-12-27 08:31:04.901 =>[main] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-27 08:31:04.901 =>[main] == INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 2133 ms
+2023-12-27 08:31:05.613 =>[main] == DEBUG com.zaxxer.hikari.HikariConfig:900 - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-12-27 08:31:05.739 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-12-27 08:31:06.014 =>[main] == DEBUG org.mybatis.spring.SqlSessionFactoryBean:49 - Parsed mapper file: 'file [/Users/m/Documents/YBServer/target/classes/com/yhdyy/ybserver/daos/mssql/mzybDao.xml]'
+2023-12-27 08:31:06.102 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-27 08:31:06.103 =>[main] == DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2023-12-27 08:31:06.109 =>[main] == DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-27 08:31:06.110 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-27 08:31:06.110 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-27 08:31:06.111 =>[main] == DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-27 08:31:06.112 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-27 08:31:06.112 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53 - Trying to load META-INF/validation.xml via user class loader
+2023-12-27 08:31:06.112 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2023-12-27 08:31:06.113 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-27 08:31:06.113 =>[main] == DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-27 08:31:06.116 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-27 08:31:06.116 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-27 08:31:06.117 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-27 08:31:06.117 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-27 08:31:06.117 =>[main] == DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-27 08:31:06.238 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 08:31:06.516 =>[main] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2023-12-27 08:31:06.554 =>[main] == INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-27 08:31:06.576 =>[main] == INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-27 08:31:06.578 =>[main] == INFO  com.yhdyy.ybserver.YbServerApplication:61 - Started YbServerApplication in 4.601 seconds (JVM running for 6.757)
+2023-12-27 08:31:19.101 =>[http-nio-8080-exec-1] == INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 08:31:19.102 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-27 08:31:19.224 =>[http-nio-8080-exec-1] == INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 90 ms
+2023-12-27 08:31:19.266 =>[http-nio-8080-exec-1] == INFO  com.yhdyy.ybserver.services.MzybService:59 - doUpload------MedicalRecord
+2023-12-27 08:31:19.278 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - Creating a new SqlSession
+2023-12-27 08:31:19.284 =>[http-nio-8080-exec-1] == DEBUG org.mybatis.spring.SqlSessionUtils:49 - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f1695b5] was not registered for synchronization because synchronization is not active
+2023-12-27 08:31:19.293 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1020 - HikariPool-1 - configuration:
+2023-12-27 08:31:19.296 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - allowPoolSuspension.............false
+2023-12-27 08:31:19.296 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - autoCommit......................true
+2023-12-27 08:31:19.297 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - catalog.........................none
+2023-12-27 08:31:19.297 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionInitSql...............none
+2023-12-27 08:31:19.297 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTestQuery.............none
+2023-12-27 08:31:19.298 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - connectionTimeout...............30000
+2023-12-27 08:31:19.298 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSource......................none
+2023-12-27 08:31:19.299 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceClassName.............none
+2023-12-27 08:31:19.299 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceJNDI..................none
+2023-12-27 08:31:19.300 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2023-12-27 08:31:19.300 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2023-12-27 08:31:19.301 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckProperties...........{}
+2023-12-27 08:31:19.301 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - healthCheckRegistry.............none
+2023-12-27 08:31:19.301 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - idleTimeout.....................600000
+2023-12-27 08:31:19.302 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - initializationFailTimeout.......1
+2023-12-27 08:31:19.302 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - isolateInternalQueries..........false
+2023-12-27 08:31:19.302 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - jdbcUrl.........................jdbc:sqlserver://192.168.191.155:1433;databaseName=mzyb;encrypt=true;trustServerCertificate=true;
+2023-12-27 08:31:19.303 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - leakDetectionThreshold..........0
+2023-12-27 08:31:19.303 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maxLifetime.....................1800000
+2023-12-27 08:31:19.303 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - maximumPoolSize.................10
+2023-12-27 08:31:19.303 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricRegistry..................none
+2023-12-27 08:31:19.303 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - metricsTrackerFactory...........none
+2023-12-27 08:31:19.304 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - minimumIdle.....................10
+2023-12-27 08:31:19.304 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - password........................<masked>
+2023-12-27 08:31:19.304 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - poolName........................"HikariPool-1"
+2023-12-27 08:31:19.304 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - readOnly........................false
+2023-12-27 08:31:19.305 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - registerMbeans..................false
+2023-12-27 08:31:19.305 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - scheduledExecutor...............none
+2023-12-27 08:31:19.305 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - schema..........................none
+2023-12-27 08:31:19.305 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - threadFactory...................internal
+2023-12-27 08:31:19.306 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - transactionIsolation............default
+2023-12-27 08:31:19.306 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - username........................"wjs_zy"
+2023-12-27 08:31:19.306 =>[http-nio-8080-exec-1] == DEBUG com.zaxxer.hikari.HikariConfig:1052 - validationTimeout...............5000
+2023-12-27 08:31:19.306 =>[http-nio-8080-exec-1] == INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-27 08:31:27.112 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2023-12-27 08:31:27.115 =>[SpringContextShutdownHook] == INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
